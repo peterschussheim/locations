@@ -3,7 +3,7 @@ export default function traverse(map, current, level) {
     return
   }
   map[current].forEach(n => {
-    console.log('-'.repeat(level) + n.name)
+    console.log(`${'-'.repeat(level)}${n.name}`)
     if (map[n.id]) {
       traverse(map, n.id, level + 1)
     }
