@@ -1,0 +1,16 @@
+{
+  "name": "locations",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "nodemon": "1.12.1"
+  },
+  "author":
+    "Peter Schussheim <peter@schussheim.com> (https://peterschussheim.com/)",
+  "license": "AGPL-3.0"
+}
