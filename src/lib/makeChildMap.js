@@ -2,7 +2,7 @@ import byName from './byName'
 
 export default function makeChildMap(arr) {
   let childMap = {}
-  let mapped = arr.map(el => {
+  arr.forEach(el => {
     let node = el
 
     if (childMap[node.parent_id]) {

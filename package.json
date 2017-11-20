@@ -10,7 +10,9 @@
     "babel-preset-env": "1.6.1",
     "nodemon": "1.12.1"
   },
-  "author":
-    "Peter Schussheim <peter@schussheim.com> (https://peterschussheim.com/)",
-  "license": "AGPL-3.0"
+  "author": "Peter Schussheim <peter@schussheim.com> (https://peterschussheim.com/)",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "eslint": "4.11.0"
+  }
 }

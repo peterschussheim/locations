@@ -35,9 +35,7 @@ San Francisco Bay Area
 
 ## Solution
 
-This is a deceptively complex problem due to the requirement that *Locations of the same level of depth should be alphabetically sorted.*
-
-Because we made this program nice and modular, let's first examine the final program, located in `src/index.js`:
+Let's first examine the final program, located in `src/index.js`:
 
 ```javascript
 import data from './data/data'
@@ -71,7 +69,7 @@ import byName from './byName'
 
 export default function makeChildMap(arr) {
   let childMap = {}
-  let mapped = arr.map(el => {
+  arr.forEach(el => {
     let node = el
 
     if (childMap[node.parent_id]) {
