@@ -1,5 +1,7 @@
 # locations
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/peterschussheim/locations.svg)](https://greenkeeper.io/)
+
 ## Given Information
 
 ### Input
